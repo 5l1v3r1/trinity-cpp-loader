@@ -63,7 +63,7 @@ int main(int, char**)
     utils::check_dlls();
     if (utils::is_dll_valid == true)
     {
-        TrinitySeal::Seal::Secret = "JepGs66jhcClSk98QhqiFiBs0AGzb6I2ZlI62pTrKCytO"; //your trinity program secret
+        TrinitySeal::Seal::Secret = ""; //your trinity program secret
         TrinitySeal::Seal::Initialize("1.0");
     }
     else if (utils::is_dll_valid == false) 
